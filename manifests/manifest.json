@@ -1,0 +1,144 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://iiif-test.github.io/March2025/manifests/manifest.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Duck and Cover" ]
+  },
+  "metadata" : [ {
+    "label" : {
+      "en" : [ "Duck and Cover PSA materials. " ]
+    },
+    "value" : {
+      "en" : [ "Federal Civil Defense Administration video and publications. " ]
+    }
+  } ],
+  "summary" : {
+    "en" : [ "A series of public service announcements and publications to describe safety precautions in the event of a nuclear attack. " ]
+  },
+  "requiredStatement" : {
+    "label" : {
+      "en" : [ "Rights" ]
+    },
+    "value" : {
+      "en" : [ "Sourced from public collections, open source" ]
+    }
+  },
+  "rights" : "https://rightsstatements.org/page/NoC-US/1.0/?language=en",
+  "items" : [ {
+    "id" : "https://example.org/ksmyf4e6nf-m91kfj4k/canvas/7y8wlw8coyq-m91kgcr9",
+    "type" : "Canvas",
+    "height" : 1080,
+    "width" : 1440,
+    "duration" : 568,
+    "label" : {
+      "en" : [ "Duck and Cover" ]
+    },
+    "metadata" : [ {
+      "label" : {
+        "en" : [ "Duck and Cover" ]
+      },
+      "value" : {
+        "en" : [ "PSA utilizing animation and demonstrations to describe safety precautions in the event of a nuclear attack." ]
+      }
+    } ],
+    "summary" : {
+      "en" : [ "This PSA utilizes animation and demonstrations to describe safety precautions in the event of a nuclear attack (courtesy of Library of Congress)." ]
+    },
+    "requiredStatement" : {
+      "label" : {
+        "en" : [ "Source" ]
+      },
+      "value" : {
+        "en" : [ "Library of Congress" ]
+      }
+    },
+    "rights" : "https://rightsstatements.org/page/NoC-US/1.0/?language=en",
+    "thumbnail" : [ {
+      "id" : "https://tile.loc.gov/storage-services/service/mbrs/ntscrm/01836081/01836081.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 1080,
+      "width" : 1920
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/ksmyf4e6nf-m91kfj4k/canvas/7y8wlw8coyq-m91kgcr9/annotation-page/rkh7lehl37a-m91kgcr9",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/ksmyf4e6nf-m91kfj4k/annotation/p4t8c0lisvm-m91kgcr9",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/ksmyf4e6nf-m91kfj4k/canvas/7y8wlw8coyq-m91kgcr9",
+        "body" : {
+          "id" : "https://tile.loc.gov/storage-services/service/mbrs/ntscrm/01836081/01836081.mp4",
+          "type" : "Video",
+          "format" : "video/mp4",
+          "height" : 1080,
+          "width" : 1440,
+          "duration" : 568
+        }
+      } ]
+    } ],
+    "annotations" : [ {
+      "id" : "https://example.org/iiif/annotationPage/1",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "http://localhost127.0.0.1:5500/duckandcovermanifest3.json",
+        "type" : "Annotation",
+        "motivation" : "supplementing",
+        "body" : {
+          "type" : "TextualBody",
+          "format" : "text/plain",
+          "language" : "en",
+          "value" : "Bert the Turtle advises students on safety practices in the case of nuclear attack."
+        },
+        "target" : "https://example.org/ksmyf4e6nf-m91kfj4k/canvas/7y8wlw8coyq-m91kgcr9#t=4,32"
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/ksmyf4e6nf-m91kfj4k/canvas/sp4c64xhelc-m91l2qle",
+    "type" : "Canvas",
+    "height" : 668,
+    "width" : 864,
+    "label" : {
+      "en" : [ "Civil Defense Pamphlet" ]
+    },
+    "metadata" : [ {
+      "label" : {
+        "en" : [ "Duck and Cover pamphlet" ]
+      },
+      "value" : {
+        "en" : [ "A 1951 \"Duck and Cover\" pamphlet produced by the Federal Civil Defense Administration." ]
+      }
+    } ],
+    "summary" : {
+      "en" : [ "This 1951 \"Duck and Cover\" pamphlet was produced by the Federal Civil Defense Administration and detailed safety precautions in the event of an atomic attack (courtesy of the Oregon Historical Society). " ]
+    },
+    "requiredStatement" : {
+      "label" : {
+        "en" : [ "Source" ]
+      },
+      "value" : {
+        "en" : [ "Oregon Historical Society" ]
+      }
+    },
+    "rights" : "https://rightsstatements.org/page/NoC-US/1.0/?language=en",
+    "items" : [ {
+      "id" : "https://example.org/ksmyf4e6nf-m91kfj4k/canvas/sp4c64xhelc-m91l2qle/annotation-page/h2irbcohdo9-m91l2qle",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/ksmyf4e6nf-m91kfj4k/annotation/yniwkzm20y9-m91l2q8t",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/ksmyf4e6nf-m91kfj4k/canvas/sp4c64xhelc-m91l2qle",
+        "body" : {
+          "id" : "https://www.oregonhistoryproject.org/media/uploads/Duck-Cover-Front-FSDM2.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 668,
+          "width" : 864
+        }
+      } ]
+    } ]
+  } ]
+}
