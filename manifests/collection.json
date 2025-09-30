@@ -1,0 +1,15 @@
+{
+  "id" : "https://iiif-test.github.io/March2025/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in iiif-test/March2025 project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "id" : "https://iiif-test.github.io/March2025/manifests/manifest.json",
+    "label" : {
+      "en" : [ "Duck and Cover" ]
+    },
+    "type" : "Manifest"
+  } ]
+}
